@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b607100-1493-49fc-b33e-df691f14918d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1606847607" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="dev-bagadi-alnour" />
+                    <option name="lastUsedInstant" value="1606847606" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="3e7e8cca-d5bf-4c18-bf33-c93abaa9345e" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l3Mk2JqwlnK93NKiNxQfFhLlXk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="zielu.svntoolbox.prj.config" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.cda.exe.Main" />
+      <module name="cda-projet-cmd-b-a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poo.cda.exe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b607100-1493-49fc-b33e-df691f14918d" name="Default Changelist" comment="" />
+      <created>1606821462806</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606821462806</updated>
+      <workItem from="1606821464473" duration="16620000" />
+      <workItem from="1606848603149" duration="2016000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="578" y="192" key="#Project_Structure" timestamp="1606822434065">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state x="578" y="192" key="#Project_Structure/0.0.2194.1234@0.0.2194.1234" timestamp="1606822434065" />
+    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1606834967267">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1606834967267" />
+    <state width="2150" height="189" key="GridCell.Tab.0.bottom" timestamp="1606848093467">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="1876" height="486" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1606834068333" />
+    <state width="2150" height="189" key="GridCell.Tab.0.bottom/0.0.2194.1234@0.0.2194.1234" timestamp="1606848093467" />
+    <state width="2150" height="189" key="GridCell.Tab.0.center" timestamp="1606848093467">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="1876" height="486" key="GridCell.Tab.0.center/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1606834068332" />
+    <state width="2150" height="189" key="GridCell.Tab.0.center/0.0.2194.1234@0.0.2194.1234" timestamp="1606848093467" />
+    <state width="2150" height="189" key="GridCell.Tab.0.left" timestamp="1606848093466">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="1876" height="486" key="GridCell.Tab.0.left/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1606834068332" />
+    <state width="2150" height="189" key="GridCell.Tab.0.left/0.0.2194.1234@0.0.2194.1234" timestamp="1606848093466" />
+    <state width="2150" height="189" key="GridCell.Tab.0.right" timestamp="1606848093467">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="1876" height="486" key="GridCell.Tab.0.right/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1606834068332" />
+    <state width="2150" height="189" key="GridCell.Tab.0.right/0.0.2194.1234@0.0.2194.1234" timestamp="1606848093467" />
+    <state x="809" y="350" width="576" height="534" key="find.popup" timestamp="1606849330583">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state x="809" y="350" width="576" height="534" key="find.popup/0.0.2194.1234@0.0.2194.1234" timestamp="1606849330583" />
+  </component>
+</project>
