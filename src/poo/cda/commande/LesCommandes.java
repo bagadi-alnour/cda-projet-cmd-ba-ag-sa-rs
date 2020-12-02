@@ -3,7 +3,7 @@ package poo.cda.commande;
 
 
 public  interface LesCommandes {
-	
+	//commentary
 	public static final CommandeHelp HELP = new CommandeHelp();
 	public static final CommandeRiver RIVER = new CommandeRiver();
 	public static final CommandeIsPrime IS_PRIME = new CommandeIsPrime();
