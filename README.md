@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # cda-projet-cmd team Couching 
 
 
@@ -154,7 +153,3 @@ Collapse
 
 
 
-# cda-projet-cmd-ag-rs-sa-ba
-=======
-# cda-projet-cmd-ba-ag-sa-rs
->>>>>>> main

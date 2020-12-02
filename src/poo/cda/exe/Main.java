@@ -1,9 +1,17 @@
 package poo.cda.exe;
 
-import poo.cda.commande.Dir;
+import java.util.Scanner;
+
+import poo.cda.outils.VerificationCommande;
 
 public class Main {
-    public static void main(String[] args) {
-        Dir.EXEC();
-    }
+
+	public static void main(String[] args) {
+		try (Scanner in = new Scanner(System.in)) {
+			VerificationCommande initialisation = new VerificationCommande();
+			while (VerificationCommande.sacnner(in)) {
+			}
+		}
+	}
+
 }
