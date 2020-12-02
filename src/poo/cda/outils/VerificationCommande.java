@@ -17,6 +17,7 @@ public class VerificationCommande {
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.HISTORY);
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.HISTORY_CLEAR);
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.QUITER);
+		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.EXIT);
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.DIR);
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.DIR_NOUVELLE_GENERATION);
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.CD);
