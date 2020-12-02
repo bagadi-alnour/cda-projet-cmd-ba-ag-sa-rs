@@ -10,6 +10,7 @@ public  interface LesCommandes {
 	public static final CommandeHistory HISTORY = new CommandeHistory();
 	public static final CommandeHistClear HISTORY_CLEAR  = new CommandeHistClear();
 	public static final CommandeQUIT QUITER  = new CommandeQUIT();
+	public static final CommandeExit EXIT  = new CommandeExit();
 	public static final CommandeDir DIR = new CommandeDir();
 	public static final CommandeDirNG DIR_NOUVELLE_GENERATION = new CommandeDirNG();
 	public static final CommandeCD CD = new CommandeCD();
