@@ -1,21 +1,24 @@
 package poo.cda.commande;
 
-import java.util.List;
+import java.util.ArrayList;
 
-abstract class Commande {
-    protected final int id;
-    protected final String description;
-    protected List args;
-    protected <T> Commande(int pId, String pDescription,List<T> args) {
-        this.id = pId;
-        this.description = pDescription;
-        this.args = args;
-    }
-    public abstract boolean executer();
-    public int getId() {
-        return this.id;
-    }
-    public String getDescription() {
-        return this.description;
-    }
+public abstract class Commande {
+	
+	protected final String id;
+	protected final String description;
+	
+	protected <T> Commande(String Id, String Description) {
+		this.id = Id;
+		this.description = Description;
+	}
+	
+	public abstract boolean executer(ArrayList<String> args);
+	
+	public String getId() {
+		return this.id;
+	}
+	
+	public String getDescription() {
+		return this.description;
+	}
 }

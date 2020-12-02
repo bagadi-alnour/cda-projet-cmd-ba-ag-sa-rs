@@ -1,20 +1,20 @@
 package poo.cda.commande;
 
-import java.util.List;
+import java.util.ArrayList;
 
-public class CommandeCat extends Commande {
+final public class CommandeCat extends Commande {
 
-	protected CommandeCat(int pId, String pDescription, List<T> args) {
-		super(pId, pDescription, args);
-
-	}
-
-	@Override
-	public boolean executer() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+	private static final String ID = "CAT";
+	private static final String DESC = "Affiche le contenue d'un fichier a la console";
 	
-	// cc it's mee
+	protected CommandeCat() {
+		super(ID, DESC);
+	}
+
+	
+	@Override
+	public boolean executer(ArrayList<String> args) {
+		return true;
+	}
 
 }
