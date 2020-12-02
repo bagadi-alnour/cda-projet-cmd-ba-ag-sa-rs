@@ -19,6 +19,9 @@ public  interface LesCommandes {
 	public static final CommandeCopy COPY = new CommandeCopy();
 	public static final CommandeCRF CRF = new CommandeCRF();
 	public static final CommandeCRD CRD = new CommandeCRD();
-	
+	public static final CommandeNow NOW = new CommandeNow();
+	public static final CommandeCount COUNT = new CommandeCount();
+	public static final CommandeGetVars GET_VARS = new CommandeGetVars();
+	public static final CommandeGetFline GET_FLINE = new CommandeGetFline();
 
 }
