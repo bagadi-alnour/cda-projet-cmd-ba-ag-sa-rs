@@ -1,16 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-/.idea
+
+/.idea/
 /bin/
-=======
-.idea/
+
+
 .classpath
 .project
-.settings/
->>>>>>> dev-bagadi-alnour
-=======
+/.settings/
 
-/.idea
-/bin/
 
->>>>>>> 1d188a7cd1879e82ff00b7a73aede7c565fdf3a2
+
