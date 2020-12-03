@@ -12,7 +12,6 @@ final public class CommandeExit extends Commande{
 	
 	@Override
 	public boolean executer(ArrayList<String> args) {
-		// TODO Stub de la méthode généré automatiquement
 		return false;
 	}
 

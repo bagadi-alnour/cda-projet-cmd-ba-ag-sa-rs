@@ -1,15 +1,17 @@
 package poo.cda.outils;
-
 import java.util.Scanner;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.HashMap;
-
 import poo.cda.commande.Commande;
+import poo.cda.commande.CommandeCD;
 import poo.cda.commande.LesCommandes;
+
 
 public class VerificationCommande {
 	private static CommandeTraduction verif;
 	private static HashMap<String, Commande> COMMANDE = new HashMap<>();
-
 	public VerificationCommande() {
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.HELP);
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.RIVER);
@@ -26,23 +28,41 @@ public class VerificationCommande {
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.COPY);
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.CRF);
 		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.CRD);
-		
-	}
+		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.NOW);
+		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.COUNT);
+		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.GET_VARS);
+		ajouterCommande(VerificationCommande.COMMANDE, LesCommandes.GET_FLINE);
+		CommandeCD.setChemin( System.getProperty("user.dir"));
 
-	public static boolean sacnner(Scanner in) {
+	}
+	
+	public static boolean scanner(Scanner in) {
+		System.out.println(">  " + CommandeCD.getChemin());
 		System.out.print(">  ");
 		VerificationCommande.verif = new CommandeTraduction(new LectureDecoupage(in.nextLine().toUpperCase()));
 		if (COMMANDE.containsKey(VerificationCommande.verif.getCmd())) {
+			try (BufferedWriter vBufferedWriter = new BufferedWriter(new FileWriter("Commande.txt", true))) {
+				if (!VerificationCommande.verif.getCmd().equals("HISTORY")) {
+					vBufferedWriter.write(VerificationCommande.verif.getCmd() + "\n");
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 			return COMMANDE.get(VerificationCommande.verif.getCmd()).executer(VerificationCommande.verif.getArgs());
 		} else {
 			System.out.println(VerificationCommande.verif.getCmd()
-					+ " n’est pas reconnu en tant que commande interne ou externe, un programme exécutable ou un fichier de this.COMMANDE.");
+					+ " n'est pas reconnu en tant que commande interne ou externe, un programme exécutable ou un fichier de this.COMMANDE.");
 			return true;
 		}
 	}
-
+	
 	private void ajouterCommande(HashMap<String, Commande> COMMANDE, Commande commande) {
 		COMMANDE.put(commande.getId(), commande);
 	}
-
+	
+	public static HashMap<String, Commande> getCOMMANDE() {
+		return COMMANDE;
+	}
+	
+	
 }
